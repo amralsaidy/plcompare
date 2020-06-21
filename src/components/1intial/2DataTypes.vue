@@ -73,7 +73,7 @@
 </template>
 
 <script>
-    import {fetchData} from '../../data/1basics/2_data_types'
+    import {fetchData} from '../../data/1initial/2_data_types'
     export default {
         name: "DataTypes",
         props: ['dataSelected'],

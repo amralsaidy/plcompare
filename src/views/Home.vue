@@ -36,9 +36,9 @@
 </template>
 
 <script>
-    import Keywords from "../components/1basics/1Keywords";
-    import DataTypes from "../components/1basics/2DataTypes";
-    import Comments from "../components/1basics/3Comments";
+    import Keywords from "../components/1intial/1Keywords";
+    import DataTypes from "../components/1intial/2DataTypes";
+    import Comments from "../components/1intial/3Comments";
 
     import Declaration from "../components/2variables/11Declaration";
     import TypeCasting from "../components/2variables/12TypeCasting";
@@ -90,8 +90,8 @@
     import Encapsulation from "../components/6oop/100Encapsulation";
     import Interfaces from "../components/6oop/101Interfaces";
 
-    import {languages} from "../data/0init/init_data";
-    import {contents} from "../data/0init/init_data";
+    import {languages} from "../data/0load/load_data";
+    import {contents} from "../data/0load/load_data";
 
     export default {
         name: "Home",

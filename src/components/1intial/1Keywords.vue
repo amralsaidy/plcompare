@@ -73,9 +73,9 @@
 </template>
 
 <script>
-    import {fetchData} from '../../data/1basics/3_comments'
+    import {fetchData} from '../../data/1initial/1_keywords'
     export default {
-        name: "Comments",
+        name: "Keywords",
         props: ['dataSelected'],
         data() {
             return fetchData()
