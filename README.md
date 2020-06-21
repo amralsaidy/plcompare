@@ -1,5 +1,7 @@
 # plcompare
 
+![Screenshot](screenshot.jpg)
+
 ## Project setup
 ```
 npm install
